@@ -1,6 +1,13 @@
-# Mac Files
+# Mac files
 .DS_Store
 
-
-* Data Files
+# Data files (the notebooks download them)
 *.csv
+*.sqlite
+*.sqlite.*
+*.zip
+
+# Python
+.venv/
+.ipynb_checkpoints/
+__pycache__/

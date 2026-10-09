@@ -1,0 +1,21 @@
+[project]
+name = "python-marketing-uzh"
+version = "1.1.0"
+description = "Coursework for Python - A non-technical introduction with applications to Marketing, University of Zurich, Fall 2023"
+authors = [{ name = "Nicolas Huber", email = "nicolas.huber.dev@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9,<3.10"
+dependencies = [
+    "jupyter",
+    "matplotlib==3.7.2",
+    "names",
+    "numpy==1.25.2",
+    "pandas==2.0.3",
+    "seaborn",
+]
+
+[tool.uv]
+package = false
+# Resolve the library versions that were current when the course ended.
+exclude-newer = "2023-09-05T00:00:00Z"
